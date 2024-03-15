@@ -1,0 +1,4 @@
+**/libusb.h
+**/libusb-*.h
+/vendor/
+.php-cs-fixer.cache

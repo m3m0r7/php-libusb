@@ -1,0 +1,12 @@
+parameters:
+    level: 8
+    paths:
+        - src
+        - tests
+    checkGenericClassInNonGenericObjectType: false
+    ignoreErrors:
+        - '#Call to an undefined method Libusb\\Connector\\(LibusbInterface|Libusb\d+_\d+)::#'
+        - '#Method Libusb\\Connector\\Libusb1_0::__(get|call|callStatic|set)#'
+        - '#Cannot access offset int<0, max> on FFI\\CData#'
+        - '#Cannot cast FFI\\CData\|null to string#'
+        - '#Access to an undefined property Libusb\\Connector\\Libusb\d+_\d+::\$LIBUSB#'
